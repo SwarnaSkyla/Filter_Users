@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color:white;
+}
+.formuser input{
+    border:1px solid white;
+}
+button{
+    width:80px;
+    padding:10px;
+}
+#prof{
+    width:100px;
+}
+.formuser{
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:70px;
+    align-items: center;
+}
+#name,#profe,#age{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:10px;
+}
+#name > input ,#profe > input,#age >input{
+    background-color: black;
+    border-radius: 2px;
+    color: white;
+}
+ul > li{
+    border-color:white;
+    padding:5px;
+    border-radius: 2px;
+    list-style: none;
+}
